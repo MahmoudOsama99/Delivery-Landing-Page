@@ -1,0 +1,19 @@
+.app {
+    .app-container {
+    }
+    .app-data {
+        text-align: center;
+        gap: 4rem;
+
+    }
+    .app-description {
+        margin: 2rem 0;
+    }
+    .app-buttons {
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 2.5rem;
+    }
+}

@@ -1,0 +1,1 @@
+sass --watch D:\Mahmoud\Projects\Delivery-Landing-Page\sass\style.scss:D:\Mahmoud\Projects\Delivery-Landing-Page\src\css\style.css

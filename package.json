@@ -1,0 +1,19 @@
+{
+  "name": "delivery-landing-page",
+  "version": "1.0.0",
+  "description": "Delivery Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MahmoudOsama99/Delivery-Landing-Page.git"
+  },
+  "author": "mahmoud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MahmoudOsama99/Delivery-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/MahmoudOsama99/Delivery-Landing-Page#readme"
+}

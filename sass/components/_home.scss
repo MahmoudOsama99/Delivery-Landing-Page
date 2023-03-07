@@ -1,0 +1,17 @@
+.home {
+    .home-container {
+        row-gap: 3rem;
+    }
+
+    .home-data{
+        .home-title{
+            font-size: var(--biggest-font-size);
+            font-weight: var(--font-bold);
+            margin-bottom: var(--mb-0-75);
+        }
+        .home-description {
+            margin-bottom: var(--mb-2);
+
+        }
+    }
+}

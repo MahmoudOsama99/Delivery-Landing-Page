@@ -1,0 +1,36 @@
+.footer {
+    background-color: var(--first-color-lighten);
+    padding-bottom: 2rem;
+    .footer-container{
+        row-gap: 2rem;
+    }
+    .footer-logo, .footer-title {
+        font-size: var(--h3-font-size);
+        color: var(--title-color);
+        font-weight: var(--font-semi-bold);
+        margin-bottom: var(--mb-0-75);
+        display: inline-block;
+    }
+
+    .footer-links {
+        display: grid;
+        row-gap: .5rem;
+    }
+    .footer-link , .footer-description {
+        gap: 1rem;
+        color: var(--text-color);
+        font-size:  var(--small-font-size)
+    }
+    .footer-social-links {
+        display: flex;
+        gap: 1.4rem;
+        .footer-social-link {
+            font-size: var(--h3-font-size);
+            color: var(--title-color)
+        }
+    }
+    .footer-copy {
+        text-align: center;
+        font-size: var(--small-font-size)
+    }
+}

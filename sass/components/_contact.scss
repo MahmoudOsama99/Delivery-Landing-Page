@@ -1,0 +1,21 @@
+.contact {
+    .contact-container {
+        padding-bottom: 2rem;
+    }
+    .contact-description {
+        text-align: center;
+    }
+    .contact-content {
+        row-gap: 1rem !important;
+    }
+    .contact-address {
+        font-size: var(--small-font-size);
+        color: var(--title-color);
+        font-weight: var(--font-semi-bold);
+    }
+    .contact-info {
+        color: var(--text-color);
+        font-weight: initial;
+    }
+ 
+}

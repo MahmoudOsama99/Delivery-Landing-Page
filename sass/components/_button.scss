@@ -1,0 +1,41 @@
+.button {
+    display: inline-block;
+    padding: .75rem 1.5rem;
+    background-color: var(--first-color);
+    color: #1f1f1f;
+    border-radius: 3rem;
+    font-weight: var(--font-semi-bold);
+    transition: .3s;
+
+    &:hover {
+        background-color: var(--first-color-alt);
+    }
+
+    &.button-link {
+        background: none;
+        padding: 0;
+        color: var(--title-color);
+
+        :hover {
+            background-color: transparent;
+        }
+    }
+
+    &.button-header {
+        display: none;
+    }
+
+    .button-flex {
+        display: inline-block;
+        padding: .75rem 1rem;
+        column-gap: .30rem;
+        align-items: center;
+    }
+
+    .button-icon {
+        font-size: 1.5rem;
+    }
+    &.contact-button {
+        padding:.75rem 2.5rem
+    }
+}
